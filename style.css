@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+body {
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg');
+    background-repeat: no-repeat;
+}
+header {
+    text-align: center;
+    color: #084847;
+}
+#headOne {
+    font-family: 'Sono', sans-serif;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #ffffff, -2px -2px 4px #ffffff;;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.con {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    background-color: #084847;
+    margin: 40px 10px;
+    width: 200px;
+    height: 210px;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #084847;
+}
+h3 {
+    font-weight: 400;
+    background-color: #ffffff;
+    height: 30px;
+    padding-top: 3px;
+    color: #084847;
+}
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+}
+#inputTime {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 30px;
+    gap: 15px;
+}
+input {
+    color: #084847;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+}
+#conButton {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+button {
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    color: #084847;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+button:hover {
+    background-color: #084847;
+    color: #ffffff;
+    cursor: pointer;
+}
+.error {
+    color: rgb(255, 62, 62);
+    background-color: #ffffff;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

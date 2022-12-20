@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="headOne">COUNT DOWN TIMER</h1>
+    </header>
+
+    <main id="container">
+        <div class="con">
+            <h1 class="hours">00</h1>
+            <h3>HOURS</h3>
+        </div>
+   
+        <div class="con">
+            <h1 class="minutes">00</h1>
+            <h3>MINUTES</h3>
+        </div>
+
+        <div class="con">
+            <h1 class="seconds">00</h1>
+            <h3>SECONDS</h3>
+        </div>
+    </main>
+
+    <div id="inputTime">
+        <input type="text" placeholder="Hours" maxlength="2" id="hour-input">
+        <input type="text" placeholder="Minutes" maxlength="2" id="min-input">
+        <input type="text" placeholder="Seconds" maxlength="2" id="sec-input">
+
+    </div>
+    <div class="app__flex">
+        <span id="error" class="error"></span>
+    </div>
+
+    <div id="conButton">
+        <button id="start" onclick="startTiming()">START</button>
+        <button id="reset" onclick="stopTimer()">RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
