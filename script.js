@@ -25,13 +25,13 @@ function timer() {
   }
   if (secs_ == 0) {
     if (min_ > 0) {
-      secs_ = 60;
+      secs_ = 59;
       min_--;
     }
   }
   if (min_ == 0 && secs_ == 60) {
     if (hour_ > 0) {
-      min_ = 60;
+      min_ = 59;
       hour_--;
     }
   }
